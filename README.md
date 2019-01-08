@@ -1,2 +1,2 @@
-# WWUAdvancedPaleo
+# WWUAdvance
 Advanced paleontology
