@@ -1,11 +1,11 @@
 # Advanced Paleontology at WWU
 This is the personal repository for Advanced Paleontology's course documents. In this repository you can find:
 
--Files
+-#Files
 
--Documents
+-#Documents
 
--Visuals
+-#Visuals
 -
 -
 -
