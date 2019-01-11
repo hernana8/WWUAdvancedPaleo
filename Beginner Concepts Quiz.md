@@ -10,14 +10,13 @@ title: PROBLEM SET 1
 
 (5)What function would you use if you wanted to combine all three datasets into a single object? I would use `list()` function. `Thrice<-list(beaver1, islands, mtcars).`
 
-(6)Does islands consist of numeric data? How did you find out? Yes, numeric and character. I checked the class(islands) and rendered a "numeric" answer. However, when loading the islands data, there are names and numeric values in the data set.
+(6)Does islands consist of numeric data? How did you find out? Yes, numeric and character. I checked the `class(islands)` and rendered a "numeric" answer. However, when loading the islands data, there are names and numeric values in the data set.
 
-(7)Code four different ways to subscript the 2nd row and 7th column of mtcars using bracket notation. (Hint: You are looking to return the number 17.02)
+(7)Code four different ways to subscript the 2nd row and 7th column of mtcars using bracket notation. (Hint: You are looking to return the number 17.02) #1. `mtcars[2,7]` #2. `mtcars[2,"qsec"]` #3. `mtcars[1."qsec"]+ 0.56` #4. 
 
-How would you change the landmass values of "Iceland", "Kyushu", and "Tierra del Fuego" to 82, 21, and 10 in the islands dataset? (Hint: You will need to use subscripts and the <- operator).
+(8)How would you change the landmass values of "Iceland", "Kyushu", and "Tierra del Fuego" to 82, 21, and 10 in the islands dataset? (Hint: You will need to use subscripts and the <- operator).
 
-Are there any times when the beaver in the beaver1 dataset had a temperature lower than 36.30 degrees? How did you find out?
+(9)Are there any times when the beaver in the beaver1 dataset had a temperature lower than 36.30 degrees? How did you find out?
 
-Take the sum of all elements in the column temp in the beaver1 dataset and call this value ValueA. Take the sume of all elements in the row Valiant in the mtcars dataset and call this value ValueB. Take the sum of the first 7 elements of the islands dataset and call this value ValueC. Divide ValueC by ValueB and add ValueA. What is your final answer? Show your code.
+(10)Take the sum of all elements in the column temp in the beaver1 dataset and call this value ValueA. Take the sume of all elements in the row Valiant in the mtcars dataset and call this value ValueB. Take the sum of the first 7 elements of the islands dataset and call this value ValueC. Divide ValueC by ValueB and add ValueA. What is your final answer? Show your code.
 
-2.
