@@ -17,6 +17,7 @@ title: PROBLEM SET 1
 (8)How would you change the landmass values of "Iceland", "Kyushu", and "Tierra del Fuego" to 82, 21, and 10 in the islands dataset? (Hint: You will need to use subscripts and the <- operator). I just set each class(landmass value) to the new given value; `islands["Iceland"]=82 islands["Kyushu"]=21 islands["Tierra del Fuego"]=10`
 
 (9)Are there any times when the beaver in the beaver1 dataset had a temperature lower than 36.30 degrees? How did you find out?
+NOT THE ANSWER: range(beaver1["temp"] >36.30) range(beaver1["temp"])
 
 (10)Take the sum of all elements in the column temp in the beaver1 dataset and call this value ValueA. Take the sume of all elements in the row Valiant in the mtcars dataset and call this value ValueB. Take the sum of the first 7 elements of the islands dataset and call this value ValueC. Divide ValueC by ValueB and add ValueA. What is your final answer? Show your code.
 
