@@ -12,9 +12,9 @@ title: PROBLEM SET 1
 
 (6)Does islands consist of numeric data? How did you find out? Yes, numeric and character. I checked the `class(islands)` and rendered a "numeric" answer. However, when loading the islands data, there are names and numeric values in the data set.
 
-(7)Code four different ways to subscript the 2nd row and 7th column of mtcars using bracket notation. (Hint: You are looking to return the number 17.02) #1. `mtcars[2,7]` #2. `mtcars[2,"qsec"]` #3. `mtcars[1."qsec"]+ 0.56` #4. 
+(7)Code four different ways to subscript the 2nd row and 7th column of mtcars using bracket notation. (Hint: You are looking to return the number 17.02) #1. `mtcars[2,7]` #2. `mtcars[2,"qsec"]` #3. `mtcars[1,"qsec"]+ 0.56` #4. `mtcars["Mazda RX4 Wag", 7]`
 
-(8)How would you change the landmass values of "Iceland", "Kyushu", and "Tierra del Fuego" to 82, 21, and 10 in the islands dataset? (Hint: You will need to use subscripts and the <- operator).
+(8)How would you change the landmass values of "Iceland", "Kyushu", and "Tierra del Fuego" to 82, 21, and 10 in the islands dataset? (Hint: You will need to use subscripts and the <- operator). I just set each class(landmass value) to the new given value; `islands["Iceland"]=82 islands["Kyushu"]=21 islands["Tierra del Fuego"]=10`
 
 (9)Are there any times when the beaver in the beaver1 dataset had a temperature lower than 36.30 degrees? How did you find out?
 
