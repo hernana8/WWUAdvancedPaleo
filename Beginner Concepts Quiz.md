@@ -6,7 +6,7 @@ class(islands) is `"data.frame"`
 
 **(2)Is islands defined as a 1-dimensional array or a vector? How did you find out? Islands is defined as a vector.** 
 
-I used `is(islands, "array")` code that gave a FALSE answer. Also, I used `is.vector(islands)` that gave a TRUE value.
+I used `is(islands, "array")` code that gave a FALSE answer. Also, I used `is.vector(islands)` that gave a TRUE value. It is a vector.
 
 **(3)How would you convert the data.frame beaver1 into a matrix?** 
 
@@ -14,7 +14,7 @@ I used the assign operator "<-" to convert between classes, "as()", from beaver 
 
 **(4)What is the name of the 8th landmass in the islands dataset? How did you find out?** 
 
-I used `islands[8]` or I typed in `islands` and just counted to the eighth landmass.
+I used `islands[8]` or I typed in `islands` and just counted to the eighth landmass; Borneo.
 
 **(5)What function would you use if you wanted to combine all three datasets into a single object?** 
 
