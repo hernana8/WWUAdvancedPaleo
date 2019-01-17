@@ -15,24 +15,24 @@ I would use `all(MyMatrix[1,]` for row One, `all(MyMatrix[2,]`for Two, and so fo
 
 # **Section 2 Questions**
 
-### **How many times does the number 7 occur in MyMatrix?**
+### **(4)How many times does the number 7 occur in MyMatrix?**
 `MyMatrix[which(MyMatrix==7)]` renders nine values of "7".
 
-### **How do you find the sum of each column?**
+### **(5)How do you find the sum of each column?**
 `apply(MyMatrix,2,sum)`
 
-### **How do you find the product of each column?**
+### **(6)How do you find the product of each column?**
 `apply(MyMatrix,2,prod)`
 
-### **How can you change every instance of the number 1 to 11?**
+### **(7)How can you change every instance of the number 1 to 11?**
 ` MyMatrix[which(MyMatrix==1)]<-11`
 
-### **How many values in MyMatrix are greater than 3 and less than 8?**
+### **(8)How many values in MyMatrix are greater than 3 and less than 8?**
 `MyMatrix[which(MyMatrix < 8 & MyMatrix > 3)]`
 
-### **How can you change the elements of column 12 into character data, while keeping columns 1-11 as numeric data?**
+### **(9)How can you change the elements of column 12 into character data, while keeping columns 1-11 as numeric data?**
 `MyMatrix[,12]<-"character"`. This however changes all values into character but still holding columns 1-11's data as "characters".
 
-### **Find which rows of MyMatrix have a sum >70. Make a new version of MyMatrix where the 13th column is a set of TRUE and FALSE values denoting which rows have a sum >70. (Hint: What type of object allows you to store both logical and numeric data at once?)**
+### **(10)Find which rows of MyMatrix have a sum >70. Make a new version of MyMatrix where the 13th column is a set of TRUE and FALSE values denoting which rows have a sum >70. (Hint: What type of object allows you to store both logical and numeric data at once?)**
 
 `which(apply(MyMatrix,1,sum) > 70)` renders which row has a sum >70. `apply(MyMatrix,1,sum)` confirms that. 
