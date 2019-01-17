@@ -1,5 +1,5 @@
 
-PROBLEM SET 2 (Intermediate)
+*PROBLEM SET 2 (Intermediate)*
 
 #### **Section 1 Questions**
 
