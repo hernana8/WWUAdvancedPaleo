@@ -34,3 +34,5 @@ I would use `all(MyMatrix[1,]` for row One, `all(MyMatrix[2,]`for Two, and so fo
 `MyMatrix[,12]<-"character"`. This however changes all values into character but still holding columns 1-11's data as "characters".
 
 **Find which rows of MyMatrix have a sum >70. Make a new version of MyMatrix where the 13th column is a set of TRUE and FALSE values denoting which rows have a sum >70. (Hint: What type of object allows you to store both logical and numeric data at once?)**
+
+`which(apply(MyMatrix,1,sum) > 70)` renders which row has a sum >70. `apply(MyMatrix,1,sum)` confirms that. 
