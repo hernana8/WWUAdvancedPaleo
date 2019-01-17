@@ -1,7 +1,7 @@
 
 PROBLEM SET 2 (Intermediate)
 
-#### Header 3 **Section 1 Questions**
+#### **Section 1 Questions**
 
 **(1)What does the replace = argument of the sample( ) function do?**
 You are replaceing every X value in `c(TRUE,FALSE)`, in sample size 96, with a `TRUE` value.
