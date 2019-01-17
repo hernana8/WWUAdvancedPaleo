@@ -16,8 +16,10 @@ I would use `all(MyMatrix[1,]` for row One, `all(MyMatrix[2,]`for Two, and so fo
 **Section 2 Questions**
 
 **How many times does the number 7 occur in MyMatrix?**
+`MyMatrix[which(MyMatrix==7)]` renders nine values of "7".
 
 **How do you find the sum of each column?**
+`apply(MyMatrix,2,sum)`
 
 **How do you find the product of each column?**
 
