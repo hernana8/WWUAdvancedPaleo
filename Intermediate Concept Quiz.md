@@ -22,10 +22,13 @@ I would use `all(MyMatrix[1,]` for row One, `all(MyMatrix[2,]`for Two, and so fo
 `apply(MyMatrix,2,sum)`
 
 **How do you find the product of each column?**
+`apply(MyMatrix,2,prod)`
 
 **How can you change every instance of the number 1 to 11?**
+` MyMatrix[which(MyMatrix==1)]<-11`
 
 **How many values in MyMatrix are greater than 3 and less than 8?**
+`MyMatrix[which(MyMatrix < 8 & MyMatrix > 3)]`
 
 **How can you change the elements of column 12 into character data, while keeping columns 1-11 as numeric data?**
 
