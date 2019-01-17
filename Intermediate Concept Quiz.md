@@ -11,7 +11,7 @@ I wrote `MatrixElements["TRUE"]<-0` and `MatrixElements["FALSE"]<-1` but came ou
 
 
 **(3)If you wanted to check if all the elements in each row are true, how would you do this?** 
-I would use `Mymatrix[which(MyMatrix)]` that would render all TRUE elements in the matrix.mymat
+I would use `all(MyMatrix[1,]` for row One, `all(MyMatrix[2,]`for Two, and so forth.
 
 **Section 2 Questions**
 
