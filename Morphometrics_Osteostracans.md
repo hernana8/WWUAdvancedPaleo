@@ -3,4 +3,4 @@
 The plot reveals all landmark data points (light gray) that were taken from each specimen. The darker circles represent the centroid or the average point for all related landmark points. Visually, we are able to deduce the amount of variation amongst data groupings.
 
 ## ** 2. Examine the information you have just generated (specifically, the PCA summary and the plot). What does this information tell you about the original set of Osteostracan skulls?**
-The PCA summary, represented by principal component (PC1) through (PC19), are numbered by most variability to least variability. This allows us to see 19 of 26 PC's for our data set.
+The PCA summary, represented by principal component (PC1) through (PC19), are numbered by most variability to least variability. This allows us to see 19 of 26 PC's for our data set. PC1 variance is 56% of shape variance, decreasing as you move towards PC19; 0.002%. This means that PC1 has 56% shape variance in our specimen Osteostracan skulls.
