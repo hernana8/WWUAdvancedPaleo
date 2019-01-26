@@ -7,12 +7,14 @@ The PCA summary, represented by principal component (PC1) through (PC19), are nu
 
 ## **3. The major axis on your plot shows the variance of principal component 1 (PC 1). According to the plot, which two specimens are LEAST similar in terms of PC 1? The two warp grids shown on the plot illustrate these two endpoints. Embed the .png files for these two specimens in your MarkDown file and describe the visual differences between them. What factor does PC 1 seem to describe?**
 
-It appears that specimen 8 *Boraspis ceratops* and specimen 29 *Zychiaspis siemiradzkii* are polar opposites. The major differences that PC1 would describe in both specimens are the anterior rostrum ("nose" spike) that is elongated on *Boreaspis ceratops* and shovel-like on *Zychiaspis siemiradzkii*, and the backwards protruding cornuta or genal spine located on the back of the head. Specimen 8 has horns protruding at a slight 90° angle of the nose, whereas specimen 29 has cornuta almost parallel, in direction, to its nose.
+It appears that specimen 8 *Boraspis ceratops* and specimen 29 *Zychiaspis siemiradzkii* are polar opposites. The major differences that PC1 and PC2 would describe in both specimens are the anterior rostrum ("nose" spike) that is elongated on *Boreaspis ceratops* and shovel-like on *Zychiaspis siemiradzkii*, and the backwards protruding cornuta or genal spine located on the back of the head. Specimen 8 has horns protruding at a slight 90° angle of the nose, whereas specimen 29 has cornuta almost parallel, in direction, to its nose. PC1 would describe the cornuta and PC2 the rostrum.
 
 ## **4. The minor axis on your plot shows the variance of PC 2. According to the plot, which two specimens are least similar in terms of PC 2? While you cannot see the warp grids for these two specimens on the plot, you can examine the .png files. Embed these images in your MarkDown file and describe the visual differences between them. What factor does PC 2 seem to describe?**
 
+PC2 has a variance value of ~32% which is largely seen in the rostrum changes between specimen 3 *Belonaspis puella* and specimen 4 *Benneviaspis anglica*. A rostrum that is very much elongated in specimen 3 is alsmost completely undersized.
 
 ## **5. Examine the PC Summary. In the summary, you are given the standard deviation, proportion of variance, and cumulative proportion for each principal component. The proportion of variance tells you how much of the variance between specimens each principal component accounts for, and PC 1 always accounts for the most variance, PC 2 for the second most, PC 3 for the third most, etc. For most data sets, nearly all the variance can be accounted for by the first few principal components. For example, over 99% of the variance in this dataset is accounted for by PC 1-7.**
+
 
 
 ## **6. Create the barplot and embed the figure in your Markdown file.**
