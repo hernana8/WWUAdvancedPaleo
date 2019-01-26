@@ -13,12 +13,10 @@ It appears that specimen 8 *Boraspis ceratops* and specimen 29 *Zychiaspis siemi
 
 PC2 has a variance value of ~32% which is largely seen in the rostrum changes between specimen 3 *Belonaspis puella* and specimen 4 *Benneviaspis anglica*. A rostrum that is very much elongated in specimen 3 is alsmost completely undersized.
 
-## **5. Examine the PC Summary. In the summary, you are given the standard deviation, proportion of variance, and cumulative proportion for each principal component. The proportion of variance tells you how much of the variance between specimens each principal component accounts for, and PC 1 always accounts for the most variance, PC 2 for the second most, PC 3 for the third most, etc. For most data sets, nearly all the variance can be accounted for by the first few principal components. For example, over 99% of the variance in this dataset is accounted for by PC 1-7.**
-
-
 
 ## **6. Create the barplot and embed the figure in your Markdown file.**
 
+![Barplot](path-to-image-here)
 
 ## **7. Try plotting PC 1 and PC 18. Include the code that you used in your MarkDown file, and embed the resuting plot. Why does it look like all the specimens fall almost perfectly along a single line parallel to the major axis?**
 
