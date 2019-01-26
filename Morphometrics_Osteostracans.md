@@ -7,6 +7,7 @@ The PCA summary, represented by principal component (PC1) through (PC19), are nu
 
 ## **3. The major axis on your plot shows the variance of principal component 1 (PC 1). According to the plot, which two specimens are LEAST similar in terms of PC 1? The two warp grids shown on the plot illustrate these two endpoints. Embed the .png files for these two specimens in your MarkDown file and describe the visual differences between them. What factor does PC 1 seem to describe?**
 
+It appears that specimen 8 *Boraspis ceratops* and specimen 29 *Zychiaspis siemiradzkii* are polor opposites.
 
 ## **4. The minor axis on your plot shows the variance of PC 2. According to the plot, which two specimens are least similar in terms of PC 2? While you cannot see the warp grids for these two specimens on the plot, you can examine the .png files. Embed these images in your MarkDown file and describe the visual differences between them. What factor does PC 2 seem to describe?**
 
