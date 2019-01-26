@@ -16,12 +16,11 @@ PC2 has a variance value of ~32% which is largely seen in the rostrum changes be
 
 ## **6. Create the barplot and embed the figure in your Markdown file.**
 
-Having issues
+![Barplot](C:\Users\hernana8\Documents\R\RplotOstros.png)
 
 
 ## **7. Try plotting PC 1 and PC 18. Include the code that you used in your MarkDown file, and embed the resuting plot. Why does it look like all the specimens fall almost perfectly along a single line parallel to the major axis?**
 
-
-
+This is due to the relative variance between PC1 and PC18. As we seen above, PC1 is contains the highest PC variance in all PC values at 53%. PC18 is tied with PC19 in having the least PC variance at 0.002%. 
 
 **idea of how to use morphometrics in paleo paragraph**
