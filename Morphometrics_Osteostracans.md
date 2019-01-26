@@ -3,3 +3,4 @@
 The plot reveals all landmark data points (light gray) that were taken from each specimen. The darker circles represent the centroid or the average point for all related landmark points. Visually, we are able to deduce the amount of variation amongst data groupings.
 
 ## ** 2. Examine the information you have just generated (specifically, the PCA summary and the plot). What does this information tell you about the original set of Osteostracan skulls?**
+The PCA
