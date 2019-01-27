@@ -21,6 +21,8 @@ Having issues
 
 ## **7. Try plotting PC 1 and PC 18. Include the code that you used in your MarkDown file, and embed the resuting plot. Why does it look like all the specimens fall almost perfectly along a single line parallel to the major axis?**
 
-This is due to the relative variance between PC1 and PC18. As we seen above, PC1 is contains the highest PC variance in all PC values at 53%. PC18 is tied with PC19 in having the least PC variance at 0.002%. 
+This is due to the relative variance between PC1 and PC18. As we seen above, PC1 contains the highest PC variance at 53%. PC18 is tied with PC19 in having the least PC variance at 0.002%. Because PC18 is so low, the points are not going to have much variance relative to PC1 which spans the distance of the farthest points horizontally.
 
 **idea of how to use morphometrics in paleo paragraph**
+
+The possibilities of using morphometrics in paleontology is endless. Not only can you adopt this technique on a variety of animal hard and soft parts, you can even apply it to their traces. I would propose to use morphometrics on burrows to see variation over time and variation amongst related taxa and non related taxa over time and compare results. Say, "X" type of trace fossil might be produced by three different types of arthropods during the Cambrian, but only two of them changed their internal topographic relief of the trace while the third stood the same approaching the Ordovician. Morphometrics can help provide data like that would tell you the minute differences in topo relief over a span of taxa and time. 
