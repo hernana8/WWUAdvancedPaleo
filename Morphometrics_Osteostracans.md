@@ -9,6 +9,11 @@ The PCA summary, represented by principal component (PC1) through (PC19), are nu
 
 It appears that specimen 8 *Boraspis ceratops* and specimen 29 *Zychiaspis siemiradzkii* are polar opposites. The major differences that PC1 and PC2 would describe in both specimens are the anterior rostrum ("nose" spike) that is elongated on *Boreaspis ceratops* and shovel-like on *Zychiaspis siemiradzkii*, and the backwards protruding cornuta or genal spine located on the back of the head. Specimen 8 has horns protruding at a slight 90° angle of the nose, whereas specimen 29 has cornuta almost parallel, in direction, to its nose. PC1 would describe the cornuta and PC2 the rostrum.
 
+![Boreaspis_ceratops](WWUAdvancedPaleo/Boreaspis_ceratops.png)
+![Boreaspis_ceratops](WWUAdvancedPaleo/Zychiaspis_siemiradzkii.png)
+        
+      
+
 ## **4. The minor axis on your plot shows the variance of PC 2. According to the plot, which two specimens are least similar in terms of PC 2? While you cannot see the warp grids for these two specimens on the plot, you can examine the .png files. Embed these images in your MarkDown file and describe the visual differences between them. What factor does PC 2 seem to describe?**
 
 PC2 has a variance value of ~32% which is largely seen in the rostrum changes between specimen 3 *Belonaspis puella* and specimen 4 *Benneviaspis anglica*. A rostrum that is very much elongated in specimen 3 is alsmost completely undersized.
