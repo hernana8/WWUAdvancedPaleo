@@ -9,8 +9,8 @@ The PCA summary, represented by principal component (PC1) through (PC19), are nu
 
 It appears that specimen 8 *Boraspis ceratops* and specimen 29 *Zychiaspis siemiradzkii* are polar opposites. The major differences that PC1 and PC2 would describe in both specimens are the anterior rostrum ("nose" spike) that is elongated on *Boreaspis ceratops* and shovel-like on *Zychiaspis siemiradzkii*, and the backwards protruding cornuta or genal spine located on the back of the head. Specimen 8 has horns protruding at a slight 90° angle of the nose, whereas specimen 29 has cornuta almost parallel, in direction, to its nose. PC1 would describe the cornuta and PC2 the rostrum.
 
-![Boreaspis_ceratops](WWUAdvancedPaleo/Boreaspis_ceratops.png)
-![Boreaspis_ceratops](WWUAdvancedPaleo/Zychiaspis_siemiradzkii.png)
+![Boreaspis_ceratops](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Boreaspis_ceratops.png)
+![Zychiaspis_siemiradzkii](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Zychiaspis_siemiradzkii.png)
         
       
 
