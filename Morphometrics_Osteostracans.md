@@ -18,10 +18,12 @@ It appears that specimen 8 *Boraspis ceratops* and specimen 29 *Zychiaspis siemi
 
 PC2 has a variance value of ~32% which is largely seen in the rostrum changes between specimen 3 *Belonaspis puella* and specimen 4 *Benneviaspis anglica*. A rostrum that is very much elongated in specimen 3 is alsmost completely undersized.
 
+![Belonaspis_puella](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Belonaspis_puella.png)
+![Benneviaspis_anglica](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Benneviaspis_anglica.png)
 
 ## **6. Create the barplot and embed the figure in your Markdown file.**
 
-Having issues
+![Belonaspis_puella](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Rplot1_18.png)
 
 
 ## **7. Try plotting PC 1 and PC 18. Include the code that you used in your MarkDown file, and embed the resuting plot. Why does it look like all the specimens fall almost perfectly along a single line parallel to the major axis?**
