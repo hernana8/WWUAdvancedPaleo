@@ -16,7 +16,7 @@ It appears that specimen 8 *Boraspis ceratops* and specimen 29 *Zychiaspis siemi
 
 ## **4. The minor axis on your plot shows the variance of PC 2. According to the plot, which two specimens are least similar in terms of PC 2? While you cannot see the warp grids for these two specimens on the plot, you can examine the .png files. Embed these images in your MarkDown file and describe the visual differences between them. What factor does PC 2 seem to describe?**
 
-PC2 has a variance value of ~32% which is largely seen in the rostrum changes between specimen 3 *Belonaspis puella* and specimen 4 *Benneviaspis anglica*. A rostrum that is very much elongated in specimen 3 is alsmost completely undersized.
+PC2 has a variance value of ~32% which is largely seen in the rostrum changes between specimen 3 *Belonaspis puella* and specimen 4 *Benneviaspis anglica*. A rostrum that is very much elongated in specimen 3 is alsmost completely undersized in specimen 4.
 
 ![Belonaspis_puella](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Belonaspis_puella.png)
 ![Benneviaspis_anglica](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Benneviaspis_anglica.png)
