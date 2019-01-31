@@ -3,7 +3,7 @@
 
 I first separated the ammonites by basic whorl shape. Many, if not all, ammonites display a form of involute shell morphology. However, specimens 2, 4, 5, 6, 14, 16, 17, 18, 19, and 22 seem to have dramatic inward curling respect to the rest. The presence of a keel (specimens 1, 4, 8, 10, 11, 16, 17, 19, 22, 23, 25), or extensive ribbing (specimen 1, 2, 6, 8, 11, 12, 18, 20, and 21) would further differentiate between species. Goniatitic sutures are seen in specimen 11 and 8, not sure whether the remainder have the same suture pattern.
 
-I believe there are three to four different types of species, some displaying a neanic/juvenile stage and others an adult stage. 
+I believe there are three to four different types of species, some possibly displaying a juvenile stage and others an adult stage. 
 
 (2) The morphological features you used to distinguish each species, including whatever combination of qualitative or quantitative traits you think are important.
 
