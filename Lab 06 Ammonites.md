@@ -18,3 +18,15 @@ I really don't see any difference other than size. One can argue that the ammoni
 **(4) The possibility of sexual dimorphism as a cause of morphological differences and how you evaluated that possibility.**
 
 Recognizing sexual dimorphism in ammonites is pretty difficult, especially when the body chamber is eroded down. When specimens are whole and reach adulthood, the shell and living chamber is larger in the female than the male. We see many size differences between similar species in our file. However, it is too difficult to destinguish dimoprhic pairs based on sight alone. 
+
+`PART TWO`
+
+**(1) Each element of the plethodon list has a name. What are they?**
+
+Using `summary (plethodon)`, the list includes: land, links, species, site, and outline.
+
+**(2) What class is each object?**
+
+`class(plethodon["site"])` says list for each of the objects; e.g., "land", "species",...
+
+**(3) Whare are the dimensions of the first object in the plethodon list?**
