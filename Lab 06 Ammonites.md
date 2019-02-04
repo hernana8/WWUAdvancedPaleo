@@ -33,12 +33,11 @@ Using `summary (plethodon)`, the list includes: land, links, species, site, and 
 **(3) Whare are the dimensions of the first object in the plethodon list?**
 
 `lengths(plethodon)` yields 960 for the first object, "Lands".
-  
-    `Subsection TWO`
-    Use the hummingbird dataset. Which object in the list records the landmark data?
+ 
+    Subsection TWO
+   
+   **(1) Use the hummingbird dataset. Which object in the list records the landmark data?**
+    "Land"
 
-    Perform a procrustes on the landmark data.
-
-    Perform a PCA on the hummingbird data.
-
-    How many "species" of hummingbird are there?
+   **(4) How many "species" of hummingbird are there?**
+![Hummingbirds PCA.](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Hummingbirds.png)
