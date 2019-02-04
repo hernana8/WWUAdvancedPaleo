@@ -24,7 +24,7 @@ Recognizing sexual dimorphism in ammonites is pretty difficult, especially when 
 
 **(1) Each element of the plethodon list has a name. What are they?**
 
-Using `summary (plethodon)`, the list includes: land, links, species, site, and outline.
+Using `summary(plethodon)`, the list includes: land, links, species, site, and outline.
 
 **(2) What class is each object?**
 
