@@ -30,3 +30,5 @@ Using `summary (plethodon)`, the list includes: land, links, species, site, and 
 `class(plethodon["site"])` says list for each of the objects; e.g., "land", "species",...
 
 **(3) Whare are the dimensions of the first object in the plethodon list?**
+
+`lengths(plethodon)` yields 960 for the first object, "Lands".
