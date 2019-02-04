@@ -40,4 +40,5 @@ Using `summary (plethodon)`, the list includes: land, links, species, site, and 
     "Land"
 
    **(4) How many "species" of hummingbird are there?**
+   There is either one or five.
 ![Hummingbirds PCA.](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Hummingbirds.png)
