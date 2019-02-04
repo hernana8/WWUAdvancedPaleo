@@ -19,6 +19,7 @@ I really don't see any difference other than size. One can argue that the ammoni
 
 Recognizing sexual dimorphism in ammonites is pretty difficult, especially when the body chamber is eroded down. When specimens are whole and reach adulthood, the shell and living chamber is larger in the female than the male. We see many size differences between similar species in our file. However, it is too difficult to destinguish dimoprhic pairs based on sight alone. 
 
+
 `PART TWO`
 
 **(1) Each element of the plethodon list has a name. What are they?**
@@ -32,3 +33,12 @@ Using `summary (plethodon)`, the list includes: land, links, species, site, and 
 **(3) Whare are the dimensions of the first object in the plethodon list?**
 
 `lengths(plethodon)` yields 960 for the first object, "Lands".
+  
+    `Subsection TWO`
+    Use the hummingbird dataset. Which object in the list records the landmark data?
+
+    Perform a procrustes on the landmark data.
+
+    Perform a PCA on the hummingbird data.
+
+    How many "species" of hummingbird are there?
