@@ -43,3 +43,21 @@ Using `summary (plethodon)`, the list includes: land, links, species, site, and 
    
    There is either one or five.
 ![Hummingbirds PCA.](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Hummingbirds.png)
+
+
+`PART THREE`
+
+**(1) What is the synapomorphy of the clade containing species D and E?**
+Fangs longer than 6".
+**(2)What is a plesiomorphic character of that clade?**
+Sulfurous odor.
+**(3)What is the synapomorphy of the clade containing species A and B?**
+Adorable eyelashes.
+**(4)Which taxa have a sulfurous odor?**
+C,D,E
+**(5)What character distinguishes species D from species E?**
+Laser Death Ray
+**(6)Are adorable eyelashes a synapomorphy or an autapomorphy?**
+Synapomorphy
+**(7)Traditionally, the five taxa are grouped into three families. Determine if each family is monophyletic, paraphyletic, or polyphyletic.**
+Fluffy tail is monophyletic, Adorable eyelashes is paraphyletic, and Sulfurous Odor is plyphyletic.
