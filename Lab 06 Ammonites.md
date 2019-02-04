@@ -37,7 +37,8 @@ Using `summary (plethodon)`, the list includes: land, links, species, site, and 
     Subsection TWO
    
    **(1) Use the hummingbird dataset. Which object in the list records the landmark data?**
-    "Land"
+   
+   "Land"
 
    **(4) How many "species" of hummingbird are there?**
    
