@@ -50,11 +50,11 @@ Species: *planumbona*
 
 `Ordovician`
 
-**(5) During this time period, were most occurrences of Ambonychia arrayed parallel or perpendicular to the equator?
+**(5) During this time period, were most occurrences of Ambonychia arrayed parallel or perpendicular to the equator?**
 
 `Perpendicular`
 
-**(6) Click on the little insect icon on the left side of the screen. This brings up taxonomic information about the target taxon. What order does Ambonychia belong to?
+**(6) Click on the little insect icon on the left side of the screen. This brings up taxonomic information about the target taxon. What order does Ambonychia belong to?**
  
 `Myalinida`
 
