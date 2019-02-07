@@ -18,9 +18,11 @@ Species: *modesta*
 
 
 **(4) In what county was the data collected?**
+
 `United States`
 
 **(5) What age (Period) is the data from?**
+
 `Ordovician`
 
 **(6) What is the name of the geologic formation that the data was collected from?**
