@@ -36,17 +36,27 @@ Species: *planumbona*
 
 **(1) Zoom in so that you can see from Texas to Florida and from Florida to New York. Some of the occurrences are orange and others are yellow. What is the significance of the different colors?**
 
+`The different colors represent the geologic time or age these fossils come from (e.g.; yellow = Cenozioc; red = Permian).`
+
 **(2)Zoom back out. Add an additioanl filter to the search bar, the Ypresian stage. The Ypresian is a time interval ranging from 47.8-56.0 million years ago. In what countries are there Ypresian occurrences of Abra?**
+
+`Abra occurs in the southern United States, England, and Belgium.`
 
 **(3)Clear the Abra and Ypresian filters from the search. Look for the genus Ambonychia (another genus of bivalve). Within the United States, find the city with the most occurrences of Ambonychia. What is the name of this city?**
 
+`Cincinnati`
+
 **(4) What age (Period) are most Ambonychia occurrences?**
+
+`Ordovician`
 
 **(5) During this time period, were most occurrences of Ambonychia arrayed parallel or perpendicular to the equator?
 
+`Perpendicular`
+
 **(6) Click on the little insect icon on the left side of the screen. This brings up taxonomic information about the target taxon. What order does Ambonychia belong to?
  
-
+`Myalinida`
 
 
 
