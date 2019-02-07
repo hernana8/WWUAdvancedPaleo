@@ -75,21 +75,32 @@ Species: *planumbona*
 
 **(4) All collections of Aves, Marsupialia, and Sirenia in the United States as a csv**
 
+`https://paleobiodb.org/data1.2/colls/list.csv?datainfo&rowcount&base_name=Aves, Marsupialia, Sirenia&cc=US`
+
 **(5) All occurrences of the gastropod genus Ficus as a csv**
 
-**(6) The next set of problems is free form, in that you can find the answers using any of the PBDB tools discussed so far.**
-
-**(7) What family does the genus Gastrocopta belong to?**
-
-**(8) There is only one occurrence of Isoetes in Portugal. What age is it?**
-
-**(9) What is the age of the oldest occurrence of Gastrocopta?**
-
-**(10) There is only one occurrence of Tiktaalik in the PBDB. Was that occurrence located in the tropics or the extratropics when that organism was alive?**
-
-**(11) There are two occurrences of Namacalathus in Siberia. What geologic formations are they found in?**
+`https://paleobiodb.org/data1.2/colls/list.csv?datainfo&rowcount&base_name=Ficus`
 
 
+**(6) What family does the genus Gastrocopta belong to?**
+
+`Gastrocoptidae`
+
+**(7) There is only one occurrence of Isoetes in Portugal. What age is it?**
+
+`Early Cretaceous - Aptian interval`
+
+**(8) What is the age of the oldest occurrence of Gastrocopta?**
+
+`Eocene`
+
+**(9) There is only one occurrence of Tiktaalik in the PBDB. Was that occurrence located in the tropics or the extratropics when that organism was alive?**
+
+`Tropics`
+
+**(10) There are two occurrences of Namacalathus in Siberia. What geologic formations are they found in?**
+
+`Kotodzha and Raiga Formations`
 
 
 
