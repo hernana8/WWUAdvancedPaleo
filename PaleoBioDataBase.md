@@ -10,11 +10,11 @@
 
 Class: Rhynchonellata
 
-Family: *Anazygidae
+Family: *Anazygidae*
 
-*Genus: *Zygospira
+Genus: *Zygospira*
 
-*Species: *modesta*
+Species: *modesta*
 
 
 **(4) In what county was the data collected?**
