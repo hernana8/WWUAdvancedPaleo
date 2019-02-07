@@ -58,29 +58,36 @@ Species: *planumbona*
  
 `Myalinida`
 
+
 ## Exercise Questions Part 3
 
-**(1) All occurrences of Ambonychia in the Lexington Limestone as a JSON
+**(1) All occurrences of Ambonychia in the Lexington Limestone as a JSON**
 
-**(2) All occurrences of mammals present in the Paleocene through Oligocene epochs as a csv
+`https://paleobiodb.org/data1.2/colls/list.json?datainfo&rowcount&base_name=Ambonychia&strat=Lexington Limestone`
 
-**(3) All opinions on the order Testudines in the Mesozoic
+**(2) All occurrences of mammals present in the Paleocene through Oligocene epochs as a csv**
 
-**(4) All collections of Aves, Marsupialia, and Sirenia in the United States as a csv
+`https://paleobiodb.org/data1.2/colls/list.csv?datainfo&rowcount&base_name=Mammalia&interval=Paleocene,Oligocene`
 
-**(5) All occurrences of the gastropod genus Ficus as a csv
+**(3) All opinions on the order Testudines in the Mesozoic**
 
-**(6) The next set of problems is free form, in that you can find the answers using any of the PBDB tools discussed so far.
+`https://paleobiodb.org/data1.2/colls/list.tsv?datainfo&rowcount&base_name=Testudines&interval=Mesozoic`
 
-**(7) What family does the genus Gastrocopta belong to?
+**(4) All collections of Aves, Marsupialia, and Sirenia in the United States as a csv**
 
-**(8) There is only one occurrence of Isoetes in Portugal. What age is it?
+**(5) All occurrences of the gastropod genus Ficus as a csv**
 
-**(9) What is the age of the oldest occurrence of Gastrocopta?
+**(6) The next set of problems is free form, in that you can find the answers using any of the PBDB tools discussed so far.**
 
-**(10) There is only one occurrence of Tiktaalik in the PBDB. Was that occurrence located in the tropics or the extratropics when that organism was alive?
+**(7) What family does the genus Gastrocopta belong to?**
 
-**(11) There are two occurrences of Namacalathus in Siberia. What geologic formations are they found in?
+**(8) There is only one occurrence of Isoetes in Portugal. What age is it?**
+
+**(9) What is the age of the oldest occurrence of Gastrocopta?**
+
+**(10) There is only one occurrence of Tiktaalik in the PBDB. Was that occurrence located in the tropics or the extratropics when that organism was alive?**
+
+**(11) There are two occurrences of Namacalathus in Siberia. What geologic formations are they found in?**
 
 
 
