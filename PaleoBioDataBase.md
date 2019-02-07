@@ -29,4 +29,4 @@ Species: *planumbona*
 
 **(6) What is the name of the geologic formation that the data was collected from?**
 
-`Oregonia Member of Arnheim Formation of Cincinnati group (informal) (OH)` - [Geolex]
+`Liberty Formation of Cincinnati group (informal) (OH)` - [Geolex]
