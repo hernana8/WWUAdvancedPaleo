@@ -10,13 +10,13 @@
 
 **(3) The first two taxa in the taxonomic list are bryozoans, and the third taxon listed is Rafinesquina alternata. Next to the taxonomic name is the citation (Conrad 1830). What is the class, family, genus and species of the fourth taxon in the taxonomic list?**
 
-Class: Rhynchonellata
+Class: Strophomenata
 
-Family: *Anazygidae*
+Family: *Strophomenidae*
 
-Genus: *Zygospira*
+Genus: *Strophomena*
 
-Species: *modesta*
+Species: *planumbona*
 
 
 **(4) In what county was the data collected?**
