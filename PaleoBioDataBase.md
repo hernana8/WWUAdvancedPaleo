@@ -12,9 +12,7 @@ Class: Rhynchonellata
 
 Family: *Anazygidae
 
-*Genus: 
-
-*Zygospira
+*Genus: *Zygospira
 
 *Species: *modesta*
 
