@@ -11,7 +11,7 @@
 Class: Rhynchonellata
 Family: *Anazygidae*
 Genus: *Zygospira*
-Species: $modesta$
+Species: *modesta*
 
 **(4) In what county was the data collected?**
 
