@@ -30,3 +30,6 @@ Species: *planumbona*
 **(6) What is the name of the geologic formation that the data was collected from?**
 
 `Liberty Formation of Cincinnati group (informal) (OH)` - [Geolex]
+
+
+## Exercise Questions Part 2
