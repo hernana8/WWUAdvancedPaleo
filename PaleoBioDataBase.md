@@ -129,7 +129,7 @@ Species: *planumbona*
 
 `interval`
 
-`URL<-"https://paleobiodb.org/data1.2/colls/list.csv?base_name=Mammut&interval=Miocene,Pleistocene"`
+`https://paleobiodb.org/data1.2/colls/list.csv?base_name=Mammut&interval=Miocene,Pleistocene`
 
 
 **(6) What URL would you use to show the paleocoordinates (i.e., paleolatitude and paleolongitude) of each data point?**
