@@ -140,4 +140,6 @@ Species: *planumbona*
 `https://paleobiodb.org/data1.2/occs/list.csv?datainfo&rowcount&base_name=Mammut&interval=Miocene,Pleistocene&show=paleolat,paleolng`
 
 
+## Exercise Questions Part 4
 
+**(1) Write an R function that will take a taxonomic name (as a character string) and an interval (as a character string) as its argument, and will download all fossil occurrences in R. See above.
