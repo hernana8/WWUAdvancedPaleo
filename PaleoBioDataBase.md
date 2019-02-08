@@ -127,11 +127,17 @@ Species: *planumbona*
 
 **(5) Look through the service doumentation for the appropriate route (based on your answer to Question 2). Find out how to extend the age search range from the Miocene Epoch through the Pleistocene Epoch. Give the new data query URL.**
 
-URL<-"https://paleobiodb.org/data1.2/colls/list.csv?base_name=Mammut&interval=Miocene,Pleistocene"
+`interval`
+
+`URL<-"https://paleobiodb.org/data1.2/colls/list.csv?base_name=Mammut&interval=Miocene,Pleistocene"`
 
 
 **(6) What URL would you use to show the paleocoordinates (i.e., paleolatitude and paleolongitude) of each data point?**
 
+`paleolng`
+`paleolat`
+
+`https://paleobiodb.org/data1.2/occs/list.csv?datainfo&rowcount&base_name=Mammut&interval=Miocene,Pleistocene&show=paleolat,paleolng`
 
 
 
