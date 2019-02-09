@@ -146,3 +146,6 @@ Species: *planumbona*
 
 
 `ruso<-  pbdb_occurrences (limit="all", base_name="rusophycus", vocab="pbdb", interval="paleozoic", show=c("occ_id", "coll_id", "ident"))`
+
+
+https://cran.r-project.org/web/packages/paleobioDB/README.html
