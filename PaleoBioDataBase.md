@@ -145,7 +145,7 @@ Species: *planumbona*
 **(1) Write an R function that will take a taxonomic name (as a character string) and an interval (as a character string) as its argument, and will download all fossil occurrences in R. See above.**
 
 
-`ruso<-  pbdb_occurrences (limit="all", base_name="rusophycus", vocab="pbdb", interval="paleozoic", show=c("occ_id", "coll_id", "ident"))`
 
+`abra<- pbdb_occurrences (limit="all", base_name="Abra", vocab="pbdb", interval="pleistocene", show=c("occ_id", "coll_id", "ident"))`
 
 https://cran.r-project.org/web/packages/paleobioDB/README.html
