@@ -13,4 +13,11 @@ There are Miocene-653, Early Jurassic-177, Late Cretaceous-396, and Pennsylvania
 
 29
 
-**(3) How many genera are in the Miocene, Early Jurassic, Late Cretaceous, and Pennsylvanian epochs (not total, but in each epoch)? What code did you use to find out?**
+**(3) Which epochs contain specimens of the genus Mytilus (a type of mussel)? What code did you use to find out?**
+
+`apply(PresencePBDB, 1, function(r) any(r %in% c("Mytilus")))`
+
+All the epochs say FALSE.
+
+**(4) Look at the epochs in the geologic timescale. Using your answer to question 3, in which epochs can we infer that Mytilus was present, even though we have no record of them in the PBDB? How did you deduce this?**
+
