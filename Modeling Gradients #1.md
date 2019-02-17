@@ -17,7 +17,7 @@ There are Miocene-653, Early Jurassic-177, Late Cretaceous-396, and Pennsylvania
 
 `apply(PresencePBDB, 1, function(r) any(r %in% c("Mytilus")))`
 
-I was able to find this hideous code that I know doesn't belong here, but still does the job. I know the basic code is somewhere in this `apply(PresencePBDB, 1, "Mytilus") structure but couldn't come to an answer. 
+I was able to find this hideous code that I know doesn't belong here but still does the job. I know the basic code is somewhere in this `apply(PresencePBDB, 1, "Mytilus") structure but couldn't come to an answer. 
 
 All the epochs say FALSE.
 
