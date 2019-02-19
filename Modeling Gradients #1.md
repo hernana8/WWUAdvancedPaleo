@@ -15,9 +15,9 @@ There are Miocene-653, Early Jurassic-177, Late Cretaceous-396, and Pennsylvania
 
 **(3) Which epochs contain specimens of the genus Mytilus (a type of mussel)? What code did you use to find out?**
 
-`apply(PresencePBDB, 1, function(r) any(r %in% c("Mytilus")))`
+`PresencePBDB[,"Mytilus"]`
 
-I was able to find this hideous code that I know doesn't belong here but still does the job. I know the basic code is somewhere in this `apply(PresencePBDB, 1, "Mytilus") structure but couldn't come to an answer. 
+ 
 
 All the epochs say FALSE.
 
