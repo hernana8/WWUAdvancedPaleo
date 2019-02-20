@@ -36,10 +36,14 @@ J(A,B) = ∣A ∩ B∣ / ∣A∣ + ∣B∣ - ∣A ∩ B|
 
 I know this is incorrect but I'm stuck here.
 
-Random codes that are useful:
+Related Codes:
 
 `table(PresencePBDB["Pleistocene",])/table(PresencePBDB["Miocene",])`
 `table(PresencePBDB["Pleistocene",])/length(PresencePBDB["Pleistocene",])`
+`table(PresencePBDB["Miocene",])
+table(PresencePBDB["Pleistocene",])
+apply(PresencePBDB,1,sum)
+apply(PresencePBDB,2,sum)`
 
 
 **(2) How can you convert your similarity index to a distance?**
