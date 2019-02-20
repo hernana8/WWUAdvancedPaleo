@@ -3,9 +3,9 @@
 
 **(1) How many genera are in the Miocene, Early Jurassic, Late Cretaceous, and Pennsylvanian epochs (not total, but in each epoch)? What code did you use to find out?**
 
-`apply(PresencePBDB,1,sum)` 
+`apply(PresencePBDB,1,sum)` or `sum(PresencePBDB["Miocene",])` for each Epoch.
 
-There are Miocene-653, Early Jurassic-177, Late Cretaceous-396, and Pennsylvanian-121.
+There are Miocene-654, Early Jurassic-177, Late Cretaceous-396, and Pennsylvanian-121.
 
 **(2) How many geologic epochs are included in this dataset? What code did you use to find out?**
 
@@ -17,13 +17,11 @@ There are Miocene-653, Early Jurassic-177, Late Cretaceous-396, and Pennsylvania
 
 `PresencePBDB[,"Mytilus"]`
 
- 
-
-All the epochs say FALSE.
+ Pridoli, Eocene, E Jurassic, L Cretaceous, Pleistocene, E Devonian, E Cretaceous, M Jurassic, M Triassic, Paleocene, L Triassic, Oligocene, Pliocene, L Jurassic, Miocene, E Triassic
 
 **(4) Look at the epochs in the geologic timescale. Using your answer to question 3, in which epochs can we infer that Mytilus was present, even though we have no record of them in the PBDB? How did you deduce this?**
 
-I am not really sure. Perhaps they were swept from our "clean taxa" function or "rare taxa" function we performed earlier. At first thought I was thinking they are perhaps more recent (<3.6 mya) and were not included into the matrix since the Pliocene is the most recent Epoch. Eventually I googled their range and did notice how far back they go. This leads me to my assumption of being included into our function sweep.
+The oldest occurence of *Mytilus* is found in the Pridoli Epoch, which is Upper Silurian. *Mytilus* may still occur in current time, but the database renders Pleistocene as the last occurence. This makes the stretch from the Upper Silurian all the way through to modern time even though the database does not depict that relevancy.
 
 
 ## Problem Set 2
