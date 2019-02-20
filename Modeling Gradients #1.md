@@ -36,11 +36,16 @@ J(A,B) = ∣A ∩ B∣ / ∣A∣ + ∣B∣ - ∣A ∩ B|
 
 I know this is incorrect but I'm stuck here.
 
+Random codes that are useful:
+
+`table(PresencePBDB["Pleistocene",])/table(PresencePBDB["Miocene",])`
+
 
 **(2) How can you convert your similarity index to a distance?**
 
 `PresencePBDB["Pleistocene",]/sum(PresencePBDB["Miocene",] +PresencePBDB["Pleistocene",]) 
 - PresencePBDB["Pleistocene",] + 1`
+
 
 
 **(3) Install and load the vegan package. Read the help file for the vegdist( ) function, then use vegdist( ) to calculate the Jaccard distance of the Miocene and Pleistocene samples from the PresencePBDB matrix. Your answer should be identical to your answer to Question 2.**
