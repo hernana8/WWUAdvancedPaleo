@@ -39,6 +39,7 @@ I know this is incorrect but I'm stuck here.
 Random codes that are useful:
 
 `table(PresencePBDB["Pleistocene",])/table(PresencePBDB["Miocene",])`
+`table(PresencePBDB["Pleistocene",])/length(PresencePBDB["Pleistocene",])`
 
 
 **(2) How can you convert your similarity index to a distance?**
