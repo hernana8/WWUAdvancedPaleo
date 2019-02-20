@@ -29,6 +29,12 @@ The oldest occurence of *Mytilus* is found in the Pridoli Epoch, which is Upper 
 **(1) Using your own custom R code, find the Jaccard similarity of the Pleistocene and Miocene "samples" in your PresencePBDB matrix. It is possible to code this entirely using only functions discussed in the R Tutorial.**
 
 
+J(A,B) = ∣A ∩ B∣ / ∣A∣ + ∣B∣ - ∣A ∩ B|
+
+` PresencePBDB["Pleistocene",]/sum(PresencePBDB["Miocene",] +PresencePBDB["Pleistocene",]) - PresencePBDB["Pleistocene",]`
+
+I know this is incorrect but I'm stuck here.
+
 
 **(2) How can you convert your similarity index to a distance?**
 
