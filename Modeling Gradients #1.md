@@ -42,20 +42,20 @@ Related Codes:
 
 `table(PresencePBDB["Pleistocene",])/length(PresencePBDB["Pleistocene",])`
 
-`table(PresencePBDB["Miocene",])
+`table(PresencePBDB["Miocene",])`
 
-table(PresencePBDB["Pleistocene",])
+`table(PresencePBDB["Pleistocene",])`
 
-apply(PresencePBDB,1,sum)
+`apply(PresencePBDB,1,sum)`
 
-apply(PresencePBDB,2,sum)`
+`apply(PresencePBDB,2,sum)`
 
 
 
 **(2) How can you convert your similarity index to a distance?**
 
-`PresencePBDB["Pleistocene",]/sum(PresencePBDB["Miocene",] +PresencePBDB["Pleistocene",]) 
-- PresencePBDB["Pleistocene",] + 1`
+`PresencePBDB["Pleistocene",]/sum(PresencePBDB["Miocene",]
++PresencePBDB["Pleistocene",]) - PresencePBDB["Pleistocene",] + 1`
 
 
 
