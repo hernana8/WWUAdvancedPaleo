@@ -31,8 +31,7 @@ The oldest occurence of *Mytilus* is found in the Pridoli Epoch, which is Upper 
 
 J(A,B) = ∣A ∩ B∣ / ∣A∣ + ∣B∣ - ∣A ∩ B|
 
-` PresencePBDB["Pleistocene",]/sum(PresencePBDB["Miocene",] +PresencePBDB["Pleistocene",]) 
-- PresencePBDB["Pleistocene",]`
+` PresencePBDB["Pleistocene",]/sum(PresencePBDB["Miocene",]+PresencePBDB["Pleistocene",])-PresencePBDB["Pleistocene",]`
 
 I know this is incorrect but I'm stuck here.
 
