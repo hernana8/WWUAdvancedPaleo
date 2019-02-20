@@ -38,6 +38,8 @@ I know this is incorrect but I'm stuck here.
 
 **(2) How can you convert your similarity index to a distance?**
 
+`PresencePBDB["Pleistocene",]/sum(PresencePBDB["Miocene",] +PresencePBDB["Pleistocene",]) - PresencePBDB["Pleistocene",] + 1`
+
 
 **(3) Using your own custom R code, find the Jaccard similarity of the Pleistocene and Miocene "samples" in your PresencePBDB matrix. It is possible to code this entirely using only functions discussed in the R Tutorial.**
 
