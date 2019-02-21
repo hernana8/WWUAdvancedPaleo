@@ -59,7 +59,7 @@ Total common divided by sum of the Plesitocene and Miocene.
 I just visually plucked each value out.
 
 
-`Least similar to most similar.
+Least similar to most similar.
 
 Miocene/Eocene = 0.08905109
 
@@ -89,7 +89,7 @@ Pliocene/Paleocene = 0.38714286
 
 Oligocene/Paleocene = 0.40625000
 
-Pleistocene/Paleocene = 0.43750000`
+Pleistocene/Paleocene = 0.43750000
 
 
 
