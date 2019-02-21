@@ -54,3 +54,29 @@ Total common divided by sum of the Plesitocene and Miocene.
 
 **(4) Using the vegdist( ) function, calculate the Jaccard distances for all of the following epochs in PresencePBDB: Pleistocene, Pliocene, Miocene, Oligocene, Eocene, Paleocene. What code did you use? Which two epochs are the most dissimilar?**
 
+`vegdist(PresencePBDB, method= "jaccard")`
+
+I just visually plucked each value out.
+
+
+`Miocene/Eocene = 0.08905109
+Pliocene/Miocene = 0.10237389
+Pleistocene/Pliocene = 0.14285714
+Pliocene/Eocene = 0.15028902
+Miocene/Oligocene = 0.16390977
+Pleistocene/Miocene = 0.16616766
+Oligocene/Eocene = 0.18694362
+Pliocene/Oligocene = 0.21021021
+Pleistocene/Eocene = 0.21542940
+Pleistocene/Oligocene = 0.27575758
+Miocene/Plaeocene = 0.32173913
+Eocene/Paleocene = 0.32272069
+Pliocene/Paleocene = 0.38714286
+Oligocene/Paleocene = 0.40625000
+Pleistocene/Paleocene = 0.43750000`
+
+
+
+
+
+
