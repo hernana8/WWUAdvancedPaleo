@@ -31,36 +31,26 @@ The oldest occurence of *Mytilus* is found in the Pridoli Epoch, which is Upper 
 
 J(A,B) = ∣A ∩ B∣ / ∣A∣ + ∣B∣ - ∣A ∩ B|
 
-` PresencePBDB["Pleistocene",]/sum(PresencePBDB["Miocene",]
-+PresencePBDB["Pleistocene",])-PresencePBDB["Pleistocene",]`
+`length(which(PresencePBDB["Pleistocene",] ==1 & PresencePBDB["Miocene",] == 0))`
 
-I know this is incorrect but I'm stuck here.
+`length(which(PresencePBDB["Pleistocene",] ==0 & PresencePBDB["Miocene",] == 1))`
 
-Related Codes:
+`length(which(PresencePBDB["Pleistocene",] ==1 & PresencePBDB["Miocene",] == 1))`
 
-`table(PresencePBDB["Pleistocene",])/table(PresencePBDB["Miocene",])`
-
-`table(PresencePBDB["Pleistocene",])/length(PresencePBDB["Pleistocene",])`
-
-`table(PresencePBDB["Miocene",])`
-
-`table(PresencePBDB["Pleistocene",])`
-
-`apply(PresencePBDB,1,sum)`
-
-`apply(PresencePBDB,2,sum)`
-
+`557/668` = 0.8338323
+Total common divided by sum of the Plesitocene and Miocene.
 
 
 **(2) How can you convert your similarity index to a distance?**
 
-`PresencePBDB["Pleistocene",]/sum(PresencePBDB["Miocene",]
-+PresencePBDB["Pleistocene",]) - PresencePBDB["Pleistocene",] + 1`
+` 1- (557/668)`
 
 
 
 **(3) Install and load the vegan package. Read the help file for the vegdist( ) function, then use vegdist( ) to calculate the Jaccard distance of the Miocene and Pleistocene samples from the PresencePBDB matrix. Your answer should be identical to your answer to Question 2.**
-`vare.dist <- vegdist(PresencePBDB)`
+`vegdist(PresencePBDB, method= "jaccard")`
+
+` 0.16616766`
 
 **(4) Using the vegdist( ) function, calculate the Jaccard distances for all of the following epochs in PresencePBDB: Pleistocene, Pliocene, Miocene, Oligocene, Eocene, Paleocene. What code did you use? Which two epochs are the most dissimilar?**
 
