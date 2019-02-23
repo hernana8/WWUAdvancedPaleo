@@ -20,8 +20,14 @@
 `plot(PostOrdovicianDCA,display="sites",choices=c(1,2))`
 `plot(x=PostOrdovicianSamples[,"DCA1"],y=PostOrdovicianSamples[,"DCA2"],pch=16,las=1,xlab="DCA1",ylab="DCA2",type="n")`
 
-`text(x=Ones[,"DCA1"],y=Ones[,"DCA2"],labels=dimnames(Ones)[[1]], col = "gold")`
-`text(x=Twos[,"DCA1"],y=Twos[,"DCA2"],labels=dimnames(Twos)[[1]], col = "Orange")`
+`text(x=Ones[,"DCA1"],y=Ones[,"DCA2"],labels=dimnames(Ones)[[1]], col = "gray")`
+`text(x=Twos[,"DCA1"],y=Twos[,"DCA2"],labels=dimnames(Twos)[[1]], col = "gold")`
+`text(x=Threes[,"DCA1"],y=Threes[,"DCA2"],labels=dimnames(Threes)[[1]], col = "Orange")`
+`text(x=Fours[,"DCA1"],y=Fours[,"DCA2"],labels=dimnames(Fours)[[1]], col = "Red")`
+`text(x=Fives[,"DCA1"],y=Fives[,"DCA2"],labels=dimnames(Fives)[[1]], col = "Red4")`
+`text(x=Sixes[,"DCA1"],y=Sixes[,"DCA2"],labels=dimnames(Sixes)[[1]], col = "darkgreen")`
+`text(x=Sevens[,"DCA1"],y=Sevens[,"DCA2"],labels=dimnames(Sevens)[[1]], col = "purple")`
+`text(x=Eights[,"DCA1"],y=Eights[,"DCA2"],labels=dimnames(Eights)[[1]], col = "black")`
 
 
 
