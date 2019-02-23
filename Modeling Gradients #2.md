@@ -17,6 +17,11 @@
 
 ![OrdovicianDCA](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/DCAGeoplateColor.png)
 
+`plot(x=PostOrdovicianSamples[,"DCA1"],y=PostOrdovicianSamples[,"DCA2"],pch=16,las=1,xlab="DCA1",ylab="DCA2",type="n")`
+
+`text(x=Ones[,"DCA1"],y=Ones[,"DCA2"],labels=dimnames(Ones)[[1]], col = "gold")`
+`text(x=Twos[,"DCA1"],y=Twos[,"DCA2"],labels=dimnames(Twos)[[1]], col = "Orange")`
+
 
 
 
