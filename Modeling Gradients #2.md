@@ -15,5 +15,5 @@
 
 **(4)Preform a DCA on your new community matrix. Analyze your DCA with a plot. Do you think that the orientation of samples along either axis 1 or axis 2 is related to the average latitude or longitude of each plate in question? Explain how you determined your answer, and shwo your code. Hint: information about the paleolatitude and paleolongitude of different geoplates is included in the data you originally downloaded (i.e., the object Ordovician)**
 
-![OrdovicianDCA](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/OrdovicianDCA.png)
+![OrdovicianDCA](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/OrdDCA.png)
 
