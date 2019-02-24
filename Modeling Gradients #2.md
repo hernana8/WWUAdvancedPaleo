@@ -29,6 +29,8 @@
 `text(x=Sevens[,"DCA1"],y=Sevens[,"DCA2"],labels=dimnames(Sevens)[[1]], col = "purple")`
 `text(x=Eights[,"DCA1"],y=Eights[,"DCA2"],labels=dimnames(Eights)[[1]], col = "black")`
 
+Well, I think the color combination does show a congregate of certains colors in one area, the black 800's and Fuchsia 700's as an example, where the variability is roughly 1 on both DCA axes. There are a few with a similar variability (300's) but then you have 309 and 313 at the far postive quadrant of DCA1. The 200's display the same thing, the rest are pretty much scattered in either one DCA axis or both.
 
+To answer the question, yes I think the majority are related to the average lat/long of each plate. There is a nice wedge effect right in the center for a few geoplates. Given that, at least one axis does define a trend for all geoplates.
 
 
