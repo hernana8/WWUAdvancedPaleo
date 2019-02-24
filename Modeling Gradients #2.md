@@ -31,6 +31,6 @@
 
 Well, I think the color combination does show a congregate of certains colors in one area, the black 800's and Fuchsia 700's as an example, where the variability is roughly 1 on both DCA axes. There are a few with a similar variability (300's) but then you have 309 and 313 at the far postive quadrant of DCA1. The 200's display the same thing, the rest are pretty much scattered in either one DCA axis or both.
 
-To answer the question, yes I think the majority are related to the average lat/long of each plate. There is a nice wedge effect right in the center for a few geoplates, but still trending on the other axis.
+To answer the question, yes I think the majority are related to the average lat/long of each plate. There is a nice wedge effect right in the center for a few geoplates, but still trending on the one other axis of each group.
 
 
