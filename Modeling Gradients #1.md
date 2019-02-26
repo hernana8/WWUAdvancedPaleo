@@ -18,6 +18,12 @@ There are Miocene-654, Early Jurassic-177, Late Cretaceous-396, and Pennsylvania
 `PresencePBDB[,"Mytilus"]`
 
  Pridoli, Eocene, E Jurassic, L Cretaceous, Pleistocene, E Devonian, E Cretaceous, M Jurassic, M Triassic, Paleocene, L Triassic, Oligocene, Pliocene, L Jurassic, Miocene, E Triassic
+ 
+ Robyn's answers: MytilusEpochs <- function(PresencePBDB) {
++  AnswerMatrix <- as.matrix(which(PresencePBDB[,"Mytilus"] == 1))
++  return(AnswerMatrix)
++ }
+> MytilusEpochs(PresencePBDB)
 
 **(4) Look at the epochs in the geologic timescale. Using your answer to question 3, in which epochs can we infer that Mytilus was present, even though we have no record of them in the PBDB? How did you deduce this?**
 
