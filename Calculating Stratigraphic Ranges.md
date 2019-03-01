@@ -3,7 +3,7 @@
 
 **(1) What do the max_ma and min_ma columns of DataPBDB represent? If you do not intuitively know, you can always check the Paleobiology Database API documentation.**
 
-`max_ma represents the macimum age of the data in millions of years. min_ma is the just the opposite, the minimum age of the data.`
+`max_ma represents the maximum age of the data in millions of years. min_ma is the just the opposite, the minimum age of the data.`
 
 
 
