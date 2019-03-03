@@ -28,3 +28,41 @@
 `Anadara<-DataPBDB[which(DataPBDB[,"genus"]=="Anadara"),]`
 
 `ageRanges(Anadara)`
+
+
+
+## Problem Set 2
+
+**(6) Qualitatively describe what is happening in the following lines of code. A good answer should identify what the different arguments are for each function, and what they are used for.**
+
+`> PaleoLng <- na.omit(Lucina$paleolng)`
+
+This is very similar the previous step (Step 1) we conducted where we isolated the paleolat data and omitted the data with missing entries. This line of code though is isolating the paleolongitude data for *Lucina*. We are omitting `na.omit` from our data `Lucina$paleolng` and assigning a new name for result: `PaleoLng`.
+
+
+
+`> mean(sample(PaleoLng, length(PaleoLng), replace=TRUE))`
+
+Here, we are finding the mean by conducting a random `sample` from our specified element `PaleoLng` at a specified size `length(PaleoLng)` either with or without replacement `replace=TRUE`. 
+
+
+
+**(6) Plot a kernel density graph of ResampledMeans. Show your code. Does the distribution look approximately Gaussian? Explain why you think it does or does not.
+
+
+
+**(7 )Find the mean of ResampledMeans, is it similar to the mean of the original data?**
+
+
+
+
+**(8)Sort ResampledMeans from lowest to highest. [Hint: We learned how to sort a vector in Lab 6].**
+
+
+
+
+**(9)Now that you have sorted ResampledMeans, what is the 2.5th percentile of ResampledMeans and what is the 97.5th percentile of Resampled means. If you do not know what a percentile is, or how to calculate it, you can use google. Show your code.**
+
+
+
+**(10)Incidentally, these numbers (your answer to question 5) are the lower and upper confidence interval of the mean! Qualitatively explain why this is the case.**
