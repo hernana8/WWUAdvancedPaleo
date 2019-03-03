@@ -43,11 +43,15 @@ This is very similar the previous step (Step 1) we conducted where we isolated t
 
 `> mean(sample(PaleoLng, length(PaleoLng), replace=TRUE))`
 
-Here, we are finding the mean by conducting a random `sample` from our specified element `PaleoLng` at a specified size `length(PaleoLng)` either with or without replacement `replace=TRUE`. 
+Here, we are finding the mean from a random `sample` from our specified element `PaleoLng` at a specified size `length(PaleoLng)` either with or without replacement `replace=TRUE`. 
 
 
 
 **(7) Plot a kernel density graph of ResampledMeans. Show your code. Does the distribution look approximately Gaussian? Explain why you think it does or does not.**
+
+`density(ResampledMeans)`
+`plot(density(ResampledMeans))`
+
 
 
 
