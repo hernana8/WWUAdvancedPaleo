@@ -54,19 +54,24 @@ Here, we are finding the mean from a random `sample` from our specified element 
 
 ![Kernel density graph](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Kernel.png)
 
+It certainly has a bell-shape to it. Gaussian distribution is the "normal" distribution where data close to the mean are more frequent in occurrence than data away from the mean. We certainly render a representation of that on this kernel graph. 
+
 
 **(8)Find the mean of ResampledMeans, is it similar to the mean of the original data?**
 
-
+`mean(ResampledMeans)` has a value of 24.27991. Our original value is 24.30135.
 
 
 **(9)Sort ResampledMeans from lowest to highest. [Hint: We learned how to sort a vector in Lab 6].**
 
-
+`sort(ResampledMeans)`
 
 
 **(10)Now that you have sorted ResampledMeans, what is the 2.5th percentile of ResampledMeans and what is the 97.5th percentile of Resampled means. If you do not know what a percentile is, or how to calculate it, you can use google. Show your code.**
 
+`quantile(ResampledMeans, c(0.025, .975))`
 
+*2.5%    97.5% 
+21.71473 26.69090*
 
 **(11)Incidentally, these numbers (your answer to question 5) are the lower and upper confidence interval of the mean! Qualitatively explain why this is the case.**
