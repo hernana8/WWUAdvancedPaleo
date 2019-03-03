@@ -104,8 +104,29 @@ At the given confidence interval of 95% and ranges shown above, I would say *Luc
 
 **(14) A pure reading of the fossil record says that Dallarca went extinct at the end of the Pliocene Epoch. Based on its confidence interval, do you think it is possible that Dallarca is still extant (alive)?**
 
+`estimateExtinction(Dallarca[,"min_ma"],0.95)`
+`estimateExtinction(Dallarca[,"min_ma"],0.99)`
+
+The latest age at both confidence intervals above are both negative. As I understand, there can't be a negative interval, so we acknowledge a "0" in lieu of negative values. Given that, it would be interpreted by the data that *Dallarca* is still around today.
+
+**Robyn, if this is completely wrong, can we go over this in class and possibly the `summary(Dallarca)` to quickly sum up what some of the columns represent.**
 
 
+## Problem Set 4
+
+**(16) State one ecological reason why this assumption is unlikey to be true.**
+
+**(17) State one geological reason why this assumpiton is unlikely to be true.**
 
 
-**(15) In this case, should we trust the confidence interval or a pure reading of the fossil record? Explain your reasoning.**
+## Problem Set 5
+
+**(18) How many occurrences are in DataPBDB. How many are in ExtantData? How many occurrences were lost by limiting our anaysis to only extant bivalves?**
+
+**(19) How many unique( ) genera were in DataPBDB and ExtantData, respectively. Using this information, what percentage of Cenozoic bivalves in the PBDB are still extant today.**
+
+**(20) Find the stratigraphic range of fossil occurrences for each genus in the ExtantData dataset. If you do not remember how to do this, revisit Problem Set 1 of this lab.**
+
+**(21) Using your answer to question 3, find which genera in ExtantData are not extant according to the PBDB - i.e., do not have a minimum min_age of zero. Show your code.**
+
+**(22) Calculate the confidence interval for the extinction of the following genera (careful with your spelling!): Scrobicularia, Meiocardia, Dimya, Digitaria, Cuspidaria, Arctica, Aloides, Kurtiella, Gouldia, and Acrosterigma. Show your code. What percentage of these taxa have confidence intervals indicating that the taxon might still be extant?**
