@@ -52,7 +52,7 @@ Here, we are finding the mean from a random `sample` from our specified element 
 `density(ResampledMeans)`
 `plot(density(ResampledMeans))`
 
-
+![Kernel density graph](https://github.com/hernana8/WWUAdvancedPaleo/blob/master/Kernel.png)
 
 
 **(8)Find the mean of ResampledMeans, is it similar to the mean of the original data?**
