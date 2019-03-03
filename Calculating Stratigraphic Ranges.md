@@ -71,7 +71,7 @@ It certainly has a bell-shape to it. Gaussian distribution is the "normal" distr
 
 `quantile(ResampledMeans, c(0.025, .975))`
 
-*2.5% 
+*2.5%    
 21.71473* 
 
 *97.5%   
@@ -80,3 +80,32 @@ It certainly has a bell-shape to it. Gaussian distribution is the "normal" distr
 **(11)Incidentally, these numbers (your answer to question 5) are the lower and upper confidence interval of the mean! Qualitatively explain why this is the case.**
 
 Confidence intervals are just a percentage of certainty that contain the true mean of the population of numbers. In our case, 2.5% and 97.5%, says we are 2.5% and 97.5% sure a range of values contain the true mean of the entire set of numbers.
+
+
+
+## Problem Set 3
+
+**(12) Based on the confidence intervals given below, do you think it likely or unlikely that Lucina is still alive?**
+
+`estimateExtinction(Lucina[,"min_ma"],0.95)`
+
+`Earliest 0.000000`
+`Latest -1.221208`
+ 
+At the given confidence interval of 95% and ranges shown above, I would say *Lucina* is still around today because the negative (-) extinction date is best represented by a zero.
+
+
+**(13) Find the extinction confidence interval for the genus Dallarca. Show your code.**
+
+`Dallarca <- subset(DataPBDB, DataPBDB$genus == "Dallarca")`
+
+`estimateExtinction(Dallarca[,"min_ma"],0.95)`
+
+
+**(14) A pure reading of the fossil record says that Dallarca went extinct at the end of the Pliocene Epoch. Based on its confidence interval, do you think it is possible that Dallarca is still extant (alive)?**
+
+
+
+
+
+**(15) In this case, should we trust the confidence interval or a pure reading of the fossil record? Explain your reasoning.**
