@@ -71,7 +71,10 @@ It certainly has a bell-shape to it. Gaussian distribution is the "normal" distr
 
 `quantile(ResampledMeans, c(0.025, .975))`
 
-*2.5%    97.5% 
-21.71473 26.69090*
+*2.5%    
+21.71473* 
+
+*97.5% 
+26.69090*
 
 **(11)Incidentally, these numbers (your answer to question 5) are the lower and upper confidence interval of the mean! Qualitatively explain why this is the case.**
