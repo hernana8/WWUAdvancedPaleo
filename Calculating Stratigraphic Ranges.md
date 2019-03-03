@@ -47,22 +47,22 @@ Here, we are finding the mean by conducting a random `sample` from our specified
 
 
 
-**(6) Plot a kernel density graph of ResampledMeans. Show your code. Does the distribution look approximately Gaussian? Explain why you think it does or does not.
+**(7) Plot a kernel density graph of ResampledMeans. Show your code. Does the distribution look approximately Gaussian? Explain why you think it does or does not.**
 
 
 
-**(7 )Find the mean of ResampledMeans, is it similar to the mean of the original data?**
-
-
-
-
-**(8)Sort ResampledMeans from lowest to highest. [Hint: We learned how to sort a vector in Lab 6].**
+**(8)Find the mean of ResampledMeans, is it similar to the mean of the original data?**
 
 
 
 
-**(9)Now that you have sorted ResampledMeans, what is the 2.5th percentile of ResampledMeans and what is the 97.5th percentile of Resampled means. If you do not know what a percentile is, or how to calculate it, you can use google. Show your code.**
+**(9)Sort ResampledMeans from lowest to highest. [Hint: We learned how to sort a vector in Lab 6].**
 
 
 
-**(10)Incidentally, these numbers (your answer to question 5) are the lower and upper confidence interval of the mean! Qualitatively explain why this is the case.**
+
+**(10)Now that you have sorted ResampledMeans, what is the 2.5th percentile of ResampledMeans and what is the 97.5th percentile of Resampled means. If you do not know what a percentile is, or how to calculate it, you can use google. Show your code.**
+
+
+
+**(11)Incidentally, these numbers (your answer to question 5) are the lower and upper confidence interval of the mean! Qualitatively explain why this is the case.**
