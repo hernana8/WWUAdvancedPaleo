@@ -130,3 +130,24 @@ The latest age at both confidence intervals above are both negative. As I unders
 **(21) Using your answer to question 3, find which genera in ExtantData are not extant according to the PBDB - i.e., do not have a minimum min_age of zero. Show your code.**
 
 **(22) Calculate the confidence interval for the extinction of the following genera (careful with your spelling!): Scrobicularia, Meiocardia, Dimya, Digitaria, Cuspidaria, Arctica, Aloides, Kurtiella, Gouldia, and Acrosterigma. Show your code. What percentage of these taxa have confidence intervals indicating that the taxon might still be extant?**
+
+
+
+
+tapply(DataPBDB[,"max_ma"],DataPBDB[,"genus"],max)
+(2)tapply(DataPBDB[,"min_ma"],DataPBDB[,Taxonomy],min)
+(3)tapply(DataPBDB[,"min_ma"],DataPBDB[,"genus"],min)
+(4)names(which(table(DataPBDB[,"genus"]) == max(table(DataPBDB[,"genus"]))))
+or which(DataPBDB[,"genus"]) == max(DataPBDB[,"genus"])))
+or max(table(DataPBDB[,"genus"]))
+
+P.Set 2
+density(ResampledMeans)
+plot(density(ResampledMeans))
+mean(ResampledMeans)` has a value of 24.27991. Our original value is 24.30135
+sort(ResampledMeans)
+quantile(ResampledMeans, c(0.025, .975))
+*finds percentile
+
+P.Set 3
+estimateExtinction(Lucina[,"min_ma"],0.95)
