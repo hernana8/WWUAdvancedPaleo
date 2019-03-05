@@ -109,8 +109,6 @@ At the given confidence interval of 95% and ranges shown above, I would say *Luc
 
 The latest age at both confidence intervals above are both negative. As I understand, there can't be a negative interval, so we acknowledge a "0" in lieu of negative values. Given that, it would be interpreted by the data that *Dallarca* is still around today.
 
-**Robyn, if this is completely wrong, can we go over this in class and possibly the `summary(Dallarca)` to quickly sum up what some of the columns represent.**
-
 
 ## Problem Set 4
 
