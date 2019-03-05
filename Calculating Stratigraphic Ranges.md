@@ -101,6 +101,9 @@ At the given confidence interval of 95% and ranges shown above, I would say *Luc
 
 `estimateExtinction(Dallarca[,"min_ma"],0.95)`
 
+Earliest - (2.58800)
+Latest - (-3.88749)
+
 
 **(14) A pure reading of the fossil record says that Dallarca went extinct at the end of the Pliocene Epoch. Based on its confidence interval, do you think it is possible that Dallarca is still extant (alive)?**
 
@@ -109,10 +112,15 @@ At the given confidence interval of 95% and ranges shown above, I would say *Luc
 
 The latest age at both confidence intervals above are both negative. As I understand, there can't be a negative interval, so we acknowledge a "0" in lieu of negative values. Given that, it would be interpreted by the data that *Dallarca* is still around today.
 
+**(15) Should we trust confidence intervals and reading?
+
+I think to an extent, yes. Our last example using *Dallarca* suggests an early time of ~2.588 to a late time of ~-3.887. This is telling us that *Dallarca's* latest time is -3.9 million years into the future, at 95% confidence. In layman's, that means in current time. Furthermore, we should not disregard the reading since those represent facts without the application of statistics.PRe
 
 ## Problem Set 4
 
 **(16) State one ecological reason why this assumption is unlikey to be true.**
+
+What we learned today: Lazarus, Elvis, and Zombie taxa. The possibilty
 
 **(17) State one geological reason why this assumpiton is unlikely to be true.**
 
@@ -120,6 +128,10 @@ The latest age at both confidence intervals above are both negative. As I unders
 ## Problem Set 5
 
 **(18) How many occurrences are in DataPBDB. How many are in ExtantData? How many occurrences were lost by limiting our anaysis to only extant bivalves?**
+
+(18a) 71215
+(18b) 62114
+(18c) 9101
 
 **(19) How many unique( ) genera were in DataPBDB and ExtantData, respectively. Using this information, what percentage of Cenozoic bivalves in the PBDB are still extant today.**
 
