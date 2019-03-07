@@ -193,18 +193,26 @@ Erosion of beds containing the actual last occurrence (LO). This would make the 
 
 
 
-##NOTES
+## NOTES
 
 tapply(DataPBDB[,"max_ma"],DataPBDB[,"genus"],max)
+
 (2)tapply(DataPBDB[,"min_ma"],DataPBDB[,Taxonomy],min)
+
 (3)tapply(DataPBDB[,"min_ma"],DataPBDB[,"genus"],min)
+
 (4)names(which(table(DataPBDB[,"genus"]) == max(table(DataPBDB[,"genus"]))))
+
 or which(DataPBDB[,"genus"]) == max(DataPBDB[,"genus"])))
+
 or max(table(DataPBDB[,"genus"]))
 
 P.Set 2
+
 density(ResampledMeans)
+
 plot(density(ResampledMeans))
+
 mean(ResampledMeans)` has a value of 24.27991. Our original value is 24.30135
 sort(ResampledMeans)
 quantile(ResampledMeans, c(0.025, .975))
