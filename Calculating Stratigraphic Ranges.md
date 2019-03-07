@@ -108,6 +108,7 @@ Latest - (-3.88749)
 **(14) A pure reading of the fossil record says that Dallarca went extinct at the end of the Pliocene Epoch. Based on its confidence interval, do you think it is possible that Dallarca is still extant (alive)?**
 
 `estimateExtinction(Dallarca[,"min_ma"],0.95)`
+
 `estimateExtinction(Dallarca[,"min_ma"],0.99)`
 
 The latest age at both confidence intervals above are both negative. As I understand, there can't be a negative interval, so we acknowledge a "0" in lieu of negative values. Given that, it would be interpreted by the data that *Dallarca* is still around today.
@@ -156,8 +157,43 @@ Erosion of beds containing the actual last occurrence (LO). This would make the 
 
 **(22) Calculate the confidence interval for the extinction of the following genera (careful with your spelling!): Scrobicularia, Meiocardia, Dimya, Digitaria, Cuspidaria, Arctica, Aloides, Kurtiella, Gouldia, and Acrosterigma. Show your code. What percentage of these taxa have confidence intervals indicating that the taxon might still be extant?**
 
+`Scrobicularia <- subset(DataPBDB, DataPBDB$genus == "Scrobicularia")`
+`estimateExtinction(Scrobicularia[,"min_ma"],0.95)`
+
+`Meiocardia <- subset(DataPBDB, DataPBDB$genus == "Meiocardia")`
+`estimateExtinction(Meiocardia[,"min_ma"],0.95)`
+
+`Dimya <- subset(DataPBDB, DataPBDB$genus == "Dimya")`
+`estimateExtinction(Dimya[,"min_ma"],0.95)`
+
+`Digitaria <- subset(DataPBDB, DataPBDB$genus == "Digitaria")`
+`estimateExtinction(Digitaria[,"min_ma"],0.95)`
+
+`Cuspidaria <- subset(DataPBDB, DataPBDB$genus == "Cuspidaria")`
+`estimateExtinction(Cuspidaria[,"min_ma"],0.95)`
+
+`Arctica <- subset(DataPBDB, DataPBDB$genus == "Arctica")`
+`estimateExtinction(Arctica[,"min_ma"],0.95)`
+
+`Aloides <- subset(DataPBDB, DataPBDB$genus == "Aloides")`
+`estimateExtinction(Aloides[,"min_ma"],0.95)`
+
+`Kurtiella <- subset(DataPBDB, DataPBDB$genus == "Kurtiella")`
+`estimateExtinction(Kurtiella[,"min_ma"],0.95)`
+
+`Gouldia <- subset(DataPBDB, DataPBDB$genus == "Gouldia")`
+`estimateExtinction(Gouldia[,"min_ma"],0.95)`
+
+`Acrosterigma <- subset(DataPBDB, DataPBDB$genus == "Acrosterigma")`
+`estimateExtinction(Acrosterigma[,"min_ma"],0.95)`
 
 
+
+
+
+
+
+##NOTES
 
 tapply(DataPBDB[,"max_ma"],DataPBDB[,"genus"],max)
 (2)tapply(DataPBDB[,"min_ma"],DataPBDB[,Taxonomy],min)
