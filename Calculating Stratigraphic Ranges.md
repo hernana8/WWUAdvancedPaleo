@@ -138,20 +138,20 @@ Erosion of beds containing the actual last occurrence (LO). This would make the 
 **(19) How many unique( ) genera were in DataPBDB and ExtantData, respectively. Using this information, what percentage of Cenozoic bivalves in the PBDB are still extant today.**
 
 `nrow(unique(DataPBDB["genus"])) - 1075`
+
 `nrow(unique(ExtantData["genus"])) - 544`
 
 **(20) Find the stratigraphic range of fossil occurrences for each genus in the ExtantData dataset. If you do not remember how to do this, revisit Problem Set 1 of this lab.**
 
 `tapply(ExtantData[,"max_ma"],ExtantData[,"genus"],max)`
+
 `tapply(ExtantData[,"min_ma"],ExtantData[,"genus"],min)`
 
 **(21) Using your answer to question 3, find which genera in ExtantData are not extant according to the PBDB - i.e., do not have a minimum min_age of zero. Show your code.**
 
 `range(tapply(ExtantData[,"min_ma"],ExtantData[,"genus"],min))`
 
-
-
-
+`subset(ExtantData$genus, "min_ma" >0)`
 
 
 **(22) Calculate the confidence interval for the extinction of the following genera (careful with your spelling!): Scrobicularia, Meiocardia, Dimya, Digitaria, Cuspidaria, Arctica, Aloides, Kurtiella, Gouldia, and Acrosterigma. Show your code. What percentage of these taxa have confidence intervals indicating that the taxon might still be extant?**
