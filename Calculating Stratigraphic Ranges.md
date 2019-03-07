@@ -114,15 +114,17 @@ The latest age at both confidence intervals above are both negative. As I unders
 
 **(15) Should we trust confidence intervals and reading?
 
-I think to an extent, yes. Our last example using *Dallarca* suggests an early time of ~2.588 to a late time of ~-3.887. This is telling us that *Dallarca's* latest time is -3.9 million years into the future, at 95% confidence. In layman's, that means in current time. Furthermore, we should not disregard the reading since those represent facts without the application of statistics.PRe
+I think to an extent, yes. Our last example using *Dallarca* suggests an early time of ~2.588 to a late time of ~-3.887. This is telling us that *Dallarca's* latest time is 3.9 million years into the future, at 95% confidence. In layman's, that means current time. Furthermore, we should not disregard the pure reading since those represent facts without the application of statistics. I think for taxa that fall within the late Cenozoic, I would take both the data and the review into consideration.
 
 ## Problem Set 4
 
 **(16) State one ecological reason why this assumption is unlikey to be true.**
 
-What we learned today: Lazarus, Elvis, and Zombie taxa. The possibilty
+What we learned today: Lazarus, Elvis, and Zombie taxa.
 
 **(17) State one geological reason why this assumpiton is unlikely to be true.**
+
+Erosion of beds containing the actual last occurrence (LO). This would make the LO span much smaller.
 
 
 ## Problem Set 5
@@ -135,9 +137,22 @@ What we learned today: Lazarus, Elvis, and Zombie taxa. The possibilty
 
 **(19) How many unique( ) genera were in DataPBDB and ExtantData, respectively. Using this information, what percentage of Cenozoic bivalves in the PBDB are still extant today.**
 
+`nrow(unique(DataPBDB["genus"])) - 1075`
+`nrow(unique(ExtantData["genus"])) - 544`
+
 **(20) Find the stratigraphic range of fossil occurrences for each genus in the ExtantData dataset. If you do not remember how to do this, revisit Problem Set 1 of this lab.**
 
+`tapply(ExtantData[,"max_ma"],ExtantData[,"genus"],max)`
+`tapply(ExtantData[,"min_ma"],ExtantData[,"genus"],min)`
+
 **(21) Using your answer to question 3, find which genera in ExtantData are not extant according to the PBDB - i.e., do not have a minimum min_age of zero. Show your code.**
+
+`range(tapply(ExtantData[,"min_ma"],ExtantData[,"genus"],min))`
+
+
+
+
+
 
 **(22) Calculate the confidence interval for the extinction of the following genera (careful with your spelling!): Scrobicularia, Meiocardia, Dimya, Digitaria, Cuspidaria, Arctica, Aloides, Kurtiella, Gouldia, and Acrosterigma. Show your code. What percentage of these taxa have confidence intervals indicating that the taxon might still be extant?**
 
